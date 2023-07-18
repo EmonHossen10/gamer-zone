@@ -1,1 +1,48 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,800&display=swap");
 
+/* Universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.color {
+  color: #ff42a5;
+}
+.logo-title {
+  font-size: 45px;
+}
+.logo-part {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 85px;
+}
+.nav-container {
+  display: flex;
+  height: 15vh;
+  list-style: none;
+  justify-content: space-around;
+  box-shadow: -5px -2px 4px 0px rgb(0, 0, 0);
+}
+.nav-text {
+  display: flex;
+  align-items: center;
+}
+.nav-text > li {
+  padding-right: 25px;
+}
+.follow-us {
+  display: flex;
+  align-items: center;
+  background-color: #e7e6e9;
+  padding: 15px;
+  border-radius: 8px;
+}
+.follow-us > i {
+  padding-left: 10px;
+}
