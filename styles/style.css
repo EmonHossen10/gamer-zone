@@ -80,9 +80,12 @@
 .goat {
   font-size: 75px;
   font-weight: bolder;
-  color: #d94dc4;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.banner-text  p {
+.banner-text p {
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
@@ -112,6 +115,51 @@
   font-weight: 500;
 }
 
+/* gamer section */
+.gamer-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  gap: 20px;
+  align-items: center;
+ padding: 50px 0;
+}
+.gamer-text {
+  padding-right: 80px;
+  
+}
+.gamer-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.gamer-description{
+  width: 530px;
+  text-align: right;
+  line-height: 32px;
+  padding-bottom: 30px;
+
+}
+.know{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+.purpose  {
+ margin-left: 340px;
+  font-size: 24px;
+
+}
+.unleash{
+ font-size: 32px;
+}
 
 /* Mobile Responsive */
 
