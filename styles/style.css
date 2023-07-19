@@ -190,7 +190,50 @@
   font-size: 18px;
   line-height: 30px;
 }
+/* play section */
+.play {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: 80vh;
+  margin: 50px 0;
+}
+.play-instant {
+  font-size: 40px;
+  width: 100%;
+  margin-left: 120px;
+}
 
+.play-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-title {
+  line-height: 60px;
+}
+.play-description {
+  width: 350px;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 30px;
+}
+.parent-img {
+  width: 100%;
+}
+.parent-img > img {
+  width: 500px;
+}
+.play-image {
+  position: relative;
+}
+.child-img > img {
+  width: 250px;
+  position: absolute;
+  bottom: -65px;
+  left: -100px;
+}
 /* Mobile Responsive */
 
 @media screen and (max-width: 576px) {
@@ -279,6 +322,40 @@
   .online-container > div > p {
     font-size: 15px;
     line-height: 30px;
+  }
+  /* play instant section */
+  .play {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .play-title {
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 100px;
+  }
+  .play-description {
+    width: 350px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .parent-img {
+    width: 100%;
+  }
+  .parent-img > img {
+    width: 400px;
+  }
+  .play-image {
+    position: relative;
+    left: 130px;
+  }
+  .child-img > img {
+    width: 200px;
+    position: absolute;
+    bottom: -65px;
+    left: -100px;
   }
 }
 
@@ -375,5 +452,40 @@
   .online-container > div > p {
     font-size: 15px;
     line-height: 30px;
+  }
+  /* play */
+  .play {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .play-title {
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 100px;
+  }
+  .play-description {
+    width: 350px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+
+  .parent-img {
+    width: 100%;
+  }
+  .parent-img > img {
+    width: 400px;
+  }
+  .play-image {
+    position: relative;
+    left: 200px;
+  }
+  .child-img > img {
+    width: 200px;
+    position: absolute;
+    bottom: -65px;
+    left: -100px;
   }
 }
